@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Foodprint Calculator - Blog Showcase</title>
+    <style>
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background: linear-gradient(to right, #b3f9a7, #83eaf1);
+            font-family: Helvetica, Arial;
+            background-size: cover;
+        }
+
+        #showcase {
+            height: 30vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        .center {
+            color: rgb(218, 151, 191);
+        }
+
+        hr {
+            width: 200px;
+            margin-top: 6px;
+            margin-bottom: 20px;
+            background-color: white;
+            height: 2px;
+        }
+
+        #big-header {
+            font-size: 55px;
+            font-weight: bold;
+            color: #0C0305;
+            animation: slideIn 1s ease-out;
+        }
+
+        @keyframes slideIn {
+            0% { transform: translateY(-50px); opacity: 0; }
+            100% { transform: translateY(0); opacity: 1; }
+        }
+
+        #small-header {
+            font-size: 20px;
+            font-weight: 500;
+            color: black;
+        }
+
+        .blog-container {
+            width: 80%;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            animation: bounceIn 1.5s ease-out;
+        }
+
+        @keyframes bounceIn {
+            0% { transform: scale(0.8); opacity: 0; }
+            60% { transform: scale(1.05); opacity: 1; }
+            100% { transform: scale(1); }
+        }
+
+        .blog-content {
+            color: #333;
+            font-family: "Open Sans", sans-serif;
+        }
+
+        h4 {
+            text-align: center;
+            color: #333;
+            font-family: "Open Sans", sans-serif;
+            font-weight: bold;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            line-height: 1.8;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header id="showcase">
+        <div class="center">
+            <p id="big-header">FOODPRINT CALCULATOR</p>
+            <hr>
+            <p id="small-header">Exploring the Water Footprint and Sustainability Challenges</p>
+        </div>
+    </header>
+
+    <!-- Blog Showcase -->
+    <div class="blog-container">
+        <div class="blog-content">
+            <h4>The Water Footprint: Unveiling Hidden Water, Virtual Water, and the Crisis in India</h4>
+            <ul>
+                <li>Water usage in agriculture, industry, and daily life significantly impacts global resources.</li>
+                <li>Virtual water is the hidden cost of water in everyday products.</li>
+                <li>The growing water crisis in India is highlighted with key data and sustainability efforts.</li>
+                <li>Globally, 4 billion people experience water scarcity annually, with India being one of the most affected countries.</li>
+                <li>The water footprint reveals total water used for goods and services, crucial for understanding resource management.</li>
+            </ul>
+            
+            <h4>What Is a Water Footprint?</h4>
+            <ul>
+                <li>The water footprint helps calculate freshwater consumed for food, clothing, and industrial products.</li>
+                <li>Global water consumption: 9,087 billion cubic meters of freshwater annually.</li>
+                <li>The water footprint is categorized into three types:
+                    <ul>
+                        <li><strong>Blue Water Footprint:</strong> Surface and groundwater resources.</li>
+                        <li><strong>Green Water Footprint:</strong> Rainwater stored in soil used in rain-fed agriculture.</li>
+                        <li><strong>Grey Water Footprint:</strong> Water required to assimilate pollutants and maintain water quality.</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h4>Hidden Water Footprint: The Water You Don’t See</h4>
+            <ul>
+                <li>Many people are unaware of the volume of water required to produce goods.</li>
+                <li><strong>Examples of hidden water footprint:</strong>
+                    <ul>
+                        <li>1 cup of coffee: 140 liters of water.</li>
+                        <li>1 kilogram of beef: 15,400 liters of water.</li>
+                        <li>1 kilogram of rice: 3,500 liters of water.</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h4>Virtual Water: The Silent Trade of Water Resources</h4>
+            <ul>
+                <li>Virtual water is the water embedded in traded goods between countries and regions.</li>
+                <li>24% of global water used for agriculture is traded as virtual water.</li>
+                <li>India is a major exporter of virtual water due to its agricultural exports, particularly rice.</li>
+            </ul>
+
+            <h4>Why the Water Footprint Matters in India</h4>
+            <ul>
+                <li>India accounts for 18% of the global population but only has 4% of the world’s freshwater resources.</li>
+                <li>80% of India’s freshwater is used for irrigation, particularly for water-intensive crops like rice and wheat.</li>
+                <li>Water tables in key agricultural regions are falling by 0.5 to 1 meter annually.</li>
+                <li>600 million people in India are experiencing high to extreme water stress.</li>
+            </ul>
+
+            <h4>The Impacts of Water Footprint Mismanagement in India</h4>
+            <ul>
+                <li>Groundwater depletion has led to crop failures and rural poverty.</li>
+                <li>Untreated industrial waste contributes to rising grey water footprint, contaminating 70% of India’s surface water.</li>
+                <li>60% of India’s aquifers may be critically depleted by 2032 if trends continue.</li>
+            </ul>
+
+            <h4>The Role of Virtual Water in India’s Trade</h4>
+            <ul>
+                <li>India exports 112 billion m³ of virtual water annually through rice exports.</li>
+                <li>Cotton exports account for 24 billion m³ of virtual water annually.</li>
+                <li>Sugarcane requires 1,800 liters of water per kilogram produced.</li>
+            </ul>
+
+            <h4>Reducing India’s Water Footprint: Sustainable Solutions</h4>
+            <ul>
+                <li>Adopt efficient irrigation techniques like drip irrigation and precision farming.</li>
+                <li>Encourage crop diversification towards less water-intensive crops like millets.</li>
+                <li>Implement rainwater harvesting in urban areas.</li>
+                <li>Recycle industrial water and promote greywater reuse.</li>
+                <li>Support policy reforms that incentivize water-efficient agricultural practices.</li>
+            </ul>
+
+            <h4>Conclusion: Building a Water-Conscious Future for India</h4>
+            <ul>
+                <li>India’s water crisis demands sustainable water management practices.</li>
+                <li>Understanding the water footprint is key to addressing water scarcity challenges.</li>
+                <li>Sustainable practices will ensure water resources for future generations.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
